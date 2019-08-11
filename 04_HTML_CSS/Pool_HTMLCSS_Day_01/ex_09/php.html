@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>index.html</title>
+
+    </head>
+    
+<body>
+    
+    
+    
+    <header>
+            <h1>Welcome to CodingPedia</h1>
+    </header>
+    <menu>
+        <nav>
+                <ul>
+ 
+                    <li><a href="index.html">INDEX</a></li>
+                    <li><a href="php.html">PHP</a></li>
+                    <li><a href="sql.html">SQL</a></li>
+                                
+                </ul>
+        </nav>
+    </menu>
+    <main>
+            <article>
+
+                    <abbr title="PHP: Hypertext Preprocessor (or simply PHP)">PHP</abbr>
+                    is a server-side scripting language designed for Web development, but also used as a general-purpose programming language.
+                    It was originally created by Rasmus Lerdorf in 1994,[5] the PHP reference implementation is now produced by The PHP Group.
+                    [6] PHP originally stood for Personal Home Page,[5] but it now stands for the recursive acronym PHP: Hypertext Preprocessor.
+
+            </article>
+            <article>
+                    <h4>Course planning</h4>
+                    <table>
+                            <thead>
+                             <tr>
+                                <th>Subjects</th>
+                                <th>Description</th>
+                                <th>Grade obtained</th>
+                             </tr>
+                            </thead>
+                           
+                            <tbody>
+                             <tr>
+                                <td>Pool_C</td>
+                                <td>Barbus</td>
+                                <td>2000</td>
+                             </tr>
+                             <tr>
+                                 <td>SQL</td>
+                                 <td>Poilus</td>
+                                 <td>3000</td>
+                             </tr>
+                                 <tr>
+                                 <td>HTML</td>
+                                 <td>Moustachus</td>
+                                 <td>10000</td>
+                             </tr>
+                            </tbody>
+                    </table>
+            </article>
+            <article>
+                    <h4>Comments</h4>
+                    <ul>
+                            <li>Untel :<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem dicta commodi non facere obcaecati 
+                                voluptas perferendis modi laudantium ad minima quaerat est voluptate, quos nam neque itaque ab laborum impedit eum, 
+                                minus, natus iste aspernatur! Aperiam quaerat, nihil provident numquam sed illo aliquam quia! Rerum sit, 
+                                ducimus nostrum beatae unde reiciendis deserunt iste animi debitis dolore sed porro et, tenetur veritatis mollitia 
+                                praesentium vitae quam cumque delectus ex eius! Ad consequatur assumenda error ducimus? Eaque dicta ducimus provident debitis.
+                            </li>
+                            <li>Deuxtel :<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem dicta commodi non facere obcaecati 
+                                voluptas perferendis modi laudantium ad minima quaerat est voluptate, quos nam neque itaque ab laborum impedit eum, 
+                                minus, natus iste aspernatur! Aperiam quaerat, nihil provident numquam sed illo aliquam quia! Rerum sit, 
+                                ducimus nostrum beatae unde reiciendis deserunt iste animi debitis dolore sed porro et, tenetur veritatis mollitia 
+                                praesentium vitae quam cumque delectus ex eius! Ad consequatur assumenda error ducimus? Eaque dicta duci
+                            </li>
+                            <li>Unetelle :<br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem dicta commodi non facere obcaecati 
+                                voluptas perferendis modi laudantium ad minima quaerat est voluptate, quos nam neque itaque ab laborum impedit eum, 
+                                minus, natus iste aspernatur! Aperiam quaerat, nihil provident numquam sed illo aliquam quia! Rerum sit, 
+                                ducimus nostrum beatae unde reiciendis deserunt iste animi debitis dolore sed porro et, tenetur veritatis mollitia 
+                                praesentium vitae quam cumque delectus ex eius! Ad consequatur assumenda error ducimus? Eaque dicta duci
+                            </li>
+                    </ul>
+            </article>
+            <article>
+                    <h4>PHP code example</h4>
+                        
+                        <p>
+                            <pre>
+                                <code>
+                                    &lt?php
+                                    // Initialize the XML parser
+                                    $parser=xml_parser_create();
+                                    
+                                    // Function to use at the start of an element
+                                    function start($parser,$element_name,$element_attrs) {
+                                      switch($element_name) {
+                                        case "NOTE":
+                                        echo "-- Note --";
+                                        break;
+                                        case "TO":
+                                        echo "To: ";
+                                        break;
+                                        case "FROM":
+                                        echo "From: ";
+                                        break;
+                                        case "HEADING":
+                                        echo "Heading: ";
+                                        break;
+                                        case "BODY":
+                                        echo "Message: ";
+                                      }
+                                    }
+                                    
+                                    // Function to use at the end of an element
+                                    function stop($parser,$element_name) {
+                                      echo " ";
+                                    }
+                                    
+                                    // Function to use when finding character data
+                                    function char($parser,$data) {
+                                      echo $data;
+                                    }
+                                    
+                                    // Specify element handler
+                                    xml_set_element_handler($parser,"start","stop");
+                                    
+                                    // Specify data handler
+                                    xml_set_character_data_handler($parser,"char");
+                                    
+                                    // Open XML file
+                                    $fp=fopen("note.xml","r");
+                                    
+                                    // Read data
+                                    while ($data=fread($fp,4096)) {
+                                      xml_parse($parser,$data,feof($fp)) or 
+                                      die (sprintf("XML Error: %s at line %d", 
+                                      xml_error_string(xml_get_error_code($parser)),
+                                      xml_get_current_line_number($parser)));
+                                    }
+                                    
+                                    // Free the XML parser
+                                    xml_parser_free($parser);
+                                    ?>
+                                </code>
+                            </pre>                           
+                        </p>
+
+                        <p>
+                            <pre>
+                                <code>
+                                    &lt?php
+                                    // Initialize the XML parser
+                                    $parser=xml_parser_create();
+                                    
+                                    // Function to use at the start of an element
+                                    function start($parser,$element_name,$element_attrs) {
+                                      switch($element_name) {
+                                        case "NOTE":
+                                        echo "-- Note --";
+                                        break;
+                                        case "TO":
+                                        echo "To: ";
+                                        break;
+                                        case "FROM":
+                                        echo "From: ";
+                                        break;
+                                        case "HEADING":
+                                        echo "Heading: ";
+                                        break;
+                                        case "BODY":
+                                        echo "Message: ";
+                                      }
+                                    }
+                                    
+                                    // Function to use at the end of an element
+                                    function stop($parser,$element_name) {
+                                      echo " ";
+                                    }
+                                    
+                                    // Function to use when finding character data
+                                    function char($parser,$data) {
+                                      echo $data;
+                                    }
+                                    
+                                    // Specify element handler
+                                    xml_set_element_handler($parser,"start","stop");
+                                    
+                                    // Specify data handler
+                                    xml_set_character_data_handler($parser,"char");
+                                    
+                                    // Open XML file
+                                    $fp=fopen("note.xml","r");
+                                    
+                                    // Read data
+                                    while ($data=fread($fp,4096)) {
+                                      xml_parse($parser,$data,feof($fp)) or 
+                                      die (sprintf("XML Error: %s at line %d", 
+                                      xml_error_string(xml_get_error_code($parser)),
+                                      xml_get_current_line_number($parser)));
+                                    }
+                                    
+                                    // Free the XML parser
+                                    xml_parser_free($parser);
+                                    ?>
+                                </code>
+                            </pre>                           
+                        </p>
+            </article> 
+            <article>
+
+                    <progress value="100%" max="1000">70%
+                        <h5>Progression personnel</h5>
+                    </progress> 
+
+                    <h4>Subjects to review</h4>
+                <ol>
+                        <li>Le rasage de moustache<br></li>
+                        <li>L'élagage de la barbe<br></li>
+                        <li>Mes blagues, surtout mes blagues<br></li>
+                </ol>
+
+            </article>
+           
+    </main>
+    <aside>
+            <p>
+                <cite>
+                    "Peaceisalie,thereisonlypassion. Through passion, I gain strength. Through strength, I gain power. Through power, I gain victory.
+                    Through victory, my chains are broken. The Force shall free me."
+                </cite> 
+            by Habib Barbus 2018</p>
+    </aside>
+
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which func- tions as a wiki.
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve</p>
+        
+        <p>I am John Mauduit, currently a student at the coding-academy, and I love to stay in the pool all day long</p>
+
+    <footer>
+        <address>
+            
+            <p>Mauduit John<br></b>64, rue de l'églité<br>92130 Issy les Moulineaux<br>+33 6 88 24 17 92</p>
+    
+        </address>
+    </footer>
+
+
+
+</body>
+</html>

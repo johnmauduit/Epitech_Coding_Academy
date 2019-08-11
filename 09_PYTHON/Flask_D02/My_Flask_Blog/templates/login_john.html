@@ -1,0 +1,49 @@
+{% block form %}
+    
+            <form method="post">
+                    {{ form.hidden_tag() }}
+                    <fieldset class="form-group">
+                            <legend class="border-bottom mb-4">Log In</legend>
+                            <div class="form-group">
+                                    {{ form.username.label(class="form-control-label") }}
+                                    {{ form.username.(class="form-control form-control-lg") }}
+                                    {% for error in form.username.error %}
+                                    <div class="flash">{{ error }}</div>  
+                                    {% endfor %}
+                                </div>  // on peut virer le username si on se log avec l'email
+                                <div class="form-group">
+                                        {{ form.email.label(class="form-control-label") }}
+                                        {{ form.email.(class="form-control form-control-lg") }}
+                                        {% for error in form.email.error %}
+                                        <div class="flash">{{ error }}</div>  
+                                        {% endfor %}
+                                </div>
+                                <div class="form-group">
+                                        {{ form.password.label(class="form-control-label") }}
+                                        {{ form.password.(class="form-control form-control-lg") }}
+                                        {% for error in form.password.error %}
+                                        <div class="flash">{{ error }}</div>  
+                                        {% endfor %}
+                                </div>
+                                <div class="form-check">
+                                        {{ form.remember(class="form-check-input") }}
+                                        {{ form.remember.label(class="form-check-label") }}
+                                </div>
+                        </fieldset>
+                        <div class="form-group">
+                                {{ form.submit(class="btn") }}
+                                {{ form.password_confirm.(class="form-control form-control-lg") }}
+                        </div>
+                        <small class="text-muted ml-2">
+                                Already have an account ? <a href="{{ url_for('login')}}" class="ml-2">Forgot your password ?</a>
+                        </small>
+                        
+                </form>
+                <div class="border-top pt-3">
+                        <small class="text-muted">
+                                Need an account ? <a href="{{ url_for('Register')}}" class="ml-2">Sign Up Now</a>
+                        </small>
+                </div>
+        
+        
+        {% endblock %}

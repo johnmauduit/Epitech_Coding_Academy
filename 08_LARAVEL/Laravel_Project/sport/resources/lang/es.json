@@ -1,0 +1,152 @@
+{
+"commentaires fonctions de base": "",
+
+  "Confirm Password": "Confirmar contraseña",
+  "E-Mail Address": "Dirección de correo electrónico",
+  "Forgot Your Password?": "¿Olvidaste tu contraseña?",
+  "If you did not request a password reset, no further action is required.": "Si no solicitó restablecer la contraseña, no se requieren más acciones.",
+  "Login": "Iniciar sesión",
+  "Logout": "Cerrar sesión",
+  "Name": "Nombre",
+  "Password": "Contraseña",
+  "Password confirmation": "confirmación de contraseña",
+  "Register": "Registro",
+  "Remember Me": "Recuérdame",
+  "Reset Password": "Restablecer la contraseña",
+  "Reset Password Notification": "Restablecer notificación de contraseña",
+  "Send Password Reset Link": "Enviar contraseña Restablecer enlace",
+  "You are receiving this email because we received a password reset request for your account.": "Usted está recibiendo este correo electrónico porque recibimos una solicitud de restablecimiento de contraseña para su cuenta.",
+
+
+"commentaires menu du layout": "",
+
+  "Language": "Idioma",
+      "English": "English",
+      "French": "French",
+      "Spanish": "Spanish",
+      "Japanese": "Japanese",
+
+  "Admin panel": "Panel de administrador",
+      "Users": "Usuarios",
+      "Players": "Jugadores",
+      "Teams": "Equipos",
+      "Matchs": "cerillas",
+      "Stats": "Stats",
+      "Bets": "Apuestas",
+
+  "Profile": "Perfil",
+  "My bets": "Mis apuestas",
+
+
+"commentaires page home": "",
+
+  "Match": "partido",
+  "Status": "Estado",
+  "Action": "acción",
+
+  "Open": "Abierto",
+  "Closed": "Cerrado",
+  "Bet": "Pero",
+
+
+  "Id": "Id",
+  "Country": "País",
+  "Flag": "Bandera",
+  "See": "Ver",
+
+
+"Page user auth": "",
+
+    
+"commentaires page teams": "",
+
+  "Globals stats": "Estadísticas globales",
+  "It's the profile of the team": "Es el perfil del equipo",
+  "From the country": "Del país",
+  "Put :": "Poner :",
+  "hits": "golpes",
+  "Sank : ": "hundir :",
+  "liters of blood": "litros de sangre",
+  "Skewer is opponent ": "Skewer es oponente",
+  "times": "veces",
+  "Last matches": "Últimos partidos",
+  "Victory": "Victoria",
+  "Defeat": "Derrota",
+
+
+"commentaires page users": "",
+
+  "Hello ": "Hola ",
+  "Email": "Email",
+  "Actions": "valores",
+  "Modify": "Modificar",
+  "Update your data": "Update your data",
+  "Choose an avatar": "Elige un avatar",
+
+
+"commentaires page players": "",
+  
+    "Player page": "Página del jugador",
+    "Player name :": "Nombre del jugador :",
+    "Team name :": "Nombre del equipo :",
+
+
+"commentaires page bets": "",     
+          
+    "My bet list": "Mi lista de apuestas",
+    "Team bet on": "Apuesta de equipo en",
+    "Money": "Dinero",
+    "Date": "fecha",
+    "Time to bet": "Es hora de apostar",
+    "Choose a winner": "Elige un ganador",
+    "Bet($$$)": "Pero ($$$)",
+    "Put the money, you are betting !": "¡Pon el dinero, estás apostando!",
+    "Submit": "Enviar",
+          
+
+
+
+"Page Admin": "",
+
+"Users administration": "Administración de usuarios",
+"Players administration": "Administración de jugadores",
+"Teams administration": "Administración de equipos",
+"Matches administration": "Coincide con la administración",
+"Bets list administration": "La administración de la lista de apuestas",
+"Stats administration": "Estadísticas de administración",
+
+"Stats update": "Actualización de estadísticas",
+
+"Add user": "Agregar usuario",
+"Add team": "Agregar equipo",
+"Add stat": "Agregar estadística",
+"Add player": "Agregar jugador",
+"Add match": "Agregar coincidencia",
+"Add bet": "Agregar apuesta",
+
+"Update data for ": "Actualizar datos para ",
+
+"Choose matches. Add a bet.": "Elige los partidos. Agrega una apuesta.",
+"Choose a winner !": "¡Elige un ganador!",
+
+"User id": "Identidad de usuario",
+"Match id": "Identificación del partido",
+"User": "Usuario",
+"Admin": "Administración",
+"Player": "Jugador",
+"Stat 1": "Estado 1",
+"Stat 2": "Estado 2",
+"Stat 3": "Estado 3",
+"Team": "Equipo",
+"Team 1": "Equipo 1",
+"Team 2": "Equipo 2",
+"Winner": "Ganador",
+
+"Creation Date": "Fecha de creación",
+"Edition Date": "Fecha de edición",
+
+"Back": "Espalda",
+"Delete": "Borrar"
+
+
+}

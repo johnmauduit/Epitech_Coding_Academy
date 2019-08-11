@@ -1,0 +1,152 @@
+{
+"commentaires fonctions de base": "",
+
+  "Confirm Password": "パスワードを認証する",
+  "E-Mail Address": "電子メールアドレス",
+  "Forgot Your Password?": "パスワードをお忘れですか？",
+  "If you did not request a password reset, no further action is required.": "パスワードリセットを要求していない場合は、これ以上の操作は必要ありません。",
+  "Login": "ログイン",
+  "Logout": "ログアウト",
+  "Name": "名",
+  "Password": "パスワード",
+  "Password confirmation": "パスワードの確認",
+  "Register": "登録",
+  "Remember Me": "私を覚えてますか",
+  "Reset Password": "パスワードを再設定する",
+  "Reset Password Notification": "パスワード通知のリセット",
+  "Send Password Reset Link": "パスワードリセットリンクを送る",
+  "You are receiving this email because we received a password reset request for your account.": "このメールは、お客様のアカウントのパスワードリセットリクエストを受信したため届きました。",
+
+
+"commentaires menu du layout": "",
+
+  "Language": "言語",
+      "English": "English",
+      "French": "French",
+      "Spanish": "Spanish",
+      "Japanese": "Japanese",
+
+  "Admin panel": "管理パネル",
+      "Users": "ユーザー",
+      "Players": "プレイヤー",
+      "Teams": "チーム",
+      "Matchs": "マッチ",
+      "Stats": "統計",
+      "Bets": "ベット",
+
+  "Profile": "プロフィール",
+  "My bets": "私の賭け",
+
+
+"commentaires page home": "",
+
+  "Match": "一致",
+  "Status": "状態",
+  "Action": "アクション",
+
+  "Open": "開いた",
+  "Closed": "閉まっている",
+  "Bet": "ベット",
+
+
+  "Id": "イド",
+  "Country": "国",
+  "Flag": "旗",
+  "See": "見る",
+
+
+"Page user auth": "",
+
+    
+"commentaires page teams": "",
+
+  "Globals stats": "グローバル統計",
+  "It's the profile of the team": "それはチームのプロフィールです",
+  "From the country": "国から",
+  "Put :": "置く：",
+  "hits": "ヒット",
+  "Sank : ": "Sank：",
+  "liters of blood": "リットルの血",
+  "Skewer is opponent ": "串は相手です",
+  "times": "回",
+  "Last matches": "最後の試合",
+  "Victory": "勝利",
+  "Defeat": "敗北",
+
+
+"commentaires page users": "",
+
+  "Hello ": "こんにちは",
+  "Email": "Eメール",
+  "Actions": "行動",
+  "Modify": "変更",
+  "Update your data": "データを更新する",
+  "Choose an avatar": "アバターを選ぶ",
+
+
+"commentaires page players": "",
+  
+    "Player page": "プレーヤーページ",
+    "Player name :": "プレーヤの名前 ：",
+    "Team name :": "チームの名前 ：",
+
+
+"commentaires page bets": "",     
+          
+    "My bet list": "私の賭けリスト",
+    "Team bet on": "チームベット",
+    "Money": "お金",
+    "Date": "日付",
+    "Time to bet": "賭ける時間",
+    "Choose a winner": "勝者を選ぶ",
+    "Bet($$$)": "ベット（$$$）",
+    "Put the money, you are betting !": "お金を入れ、あなたは賭けている！",
+    "Submit": "提出する",
+          
+
+
+
+"Page Admin": "",
+
+"Users administration": "ユーザー管理",
+"Players administration": "選手の管理",
+"Teams administration": "チームの管理",
+"Matches administration": "管理と一致する",
+"Bets list administration": "ベット管理",
+"Stats administration": "統計情報の管理",
+
+"Stats update": "統計情報の更新",
+
+"Add user": "ユーザーを追加する",
+"Add team": "チームを追加",
+"Add stat": "統計情報を追加",
+"Add player": "プレーヤーを追加",
+"Add match": "マッチを追加",
+"Add bet": "ベットを追加",
+
+"Update data for ": "のデータを更新 ",
+
+"Choose matches. Add a bet.": "マッチを選択します。賭けを加える。",
+"Choose a winner !": "Choose a winner !",
+
+"User id": "ユーザーID",
+"Match id": "マッチID",
+"User": "ユーザー",
+"Admin": "管理者",
+"Player": "プレーヤー",
+"Stat 1": "統計 1",
+"Stat 2": "統計 2",
+"Stat 3": "統計 3",
+"Team": "チーム",
+"Team 1": "チーム 1",
+"Team 2": "チーム 2",
+"Winner": "勝者",
+
+"Creation Date": "作成日",
+"Edition Date": "エディション日付",
+
+"Back": "バック",
+"Delete": "削除"
+
+
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="admin.css">
+    <title>Administration Space</title>
+  </head>
+
+
+    <body class="col11"  >
+      <div class="col11">
+        <header class="col12">
+           <div class="bigTitle">
+             <h1>pikapikachu~~~~~</h1>
+           </div>
+            <nav class="col2">
+              <ul class="col1">
+              <li><a href="index.html">INDEX</a></li>
+              </ul>
+            </nav>
+        </header>
+      </div>
+
+      <main class="col9">
+        <div class="col11">
+              <form class="searchUser " action="  " method="post">
+              ID: <input  type="text" name="ID" >
+              <input type="submit" name="search" value="search">
+              </form>
+        </div>
+
+
+      <div id="createUser" class="c2 form-group">
+             <div class="c2 form-group">
+               <h2> &nbsp; &nbsp; &nbsp;&nbsp;New Product information</h2>
+               <br><br>
+                   <form method="post"  action=" " >
+                         <input class="inputLine" type="text" name="name" placeholder="     Name" required/>
+                         <input class="reHide" type="submit" name="create" value="CREATE" >
+                         <input class="inputLine" type="email" name="email" placeholder="     price" required/>
+                         <input id="clear" class="reHide" type="reset" name="reset" value="RESET" >
+                         <input class="inputLine" type="password" name="password" placeholder="     category"  required/>
+                         <input class="reHide" type="button" name="close" value="CLOSE" onclick="Close()" >
+                         <br> <br>
+                   </form>
+             </div>
+      </div>
+
+      <div id="editResult" class="c2 form-group">
+             <form class="" action="index.html" method="post">
+                  <br><br><br>
+              <input id="editPage" class="inputLine" type="text" name="name" placeholder="Please fill in the product Id/Name/reference you want to EDIT." />
+              <input type="submit" name="" value="search">
+              <br><br>
+              </form>
+              <div class="">
+                    <table>
+                         <tr>
+                           <th>id</th>
+                           <th>name</th>
+                           <th>price</th>
+                           <th>category</th>
+                         </tr>
+
+<!-- il faut montrer tous les information de User dans ce table endesous. -->
+                         <tr>
+                           <td>hahaha</td>
+                           <td>lalala</td>
+                           <td>yoyoyo</td>
+                           <td>1</td>
+                         </tr>
+                 </table>
+               </div>
+               <br><br>
+               <button id="btnEdit" type="button" name="button" onclick="editInfo()">EDIT</button>
+      </div>
+      <div  id="toBeEdit" class="c2 form-group">
+             <div class="c2 form-group">
+               <h2> &nbsp; &nbsp; &nbsp;&nbsp;</h2>
+                   <form method="post"  action="inscription.php" >
+                         <input class="inputLine" type="text" name="name" placeholder="   name" />
+                         <input class="reHide" type="submit" name="create" value="Edit" >
+                         <input class="inputLine" type="email" name="email" placeholder="     Price" />
+                         <input id="clear" class="reHide" type="reset" name="reset" value="reset" >
+                         <input class="inputLine" type="password" name="password" placeholder="   Password"  />
+                         <input class="reHide" type="button" name="close" value="CLOSE" onclick="CloseEdit()" >
+
+
+                         <br> <br>
+                   </form>
+             </div>
+      </div>
+
+      <div id="Delete" class="c2 form-group">
+             <form class="" action="index.html" method="post">
+                  <br><br><br>
+              <input id="editPage" class="inputLine" type="text" name="name" placeholder="Please fill in the product Id/Name/reference you want to Delete." />
+              <input type="submit" name="" value="search">
+              <br><br>
+              </form>
+              <div class="">
+                    <table>
+                         <tr>
+                           <th>id</th>
+                           <th>name</th>
+                           <th>price</th>
+                           <th>category</th>
+                         </tr>
+
+<!-- il faut montrer tous les information de User dans ce table endesous. -->
+                         <tr>
+                           <td>hahaha</td>
+                           <td>lalala</td>
+                           <td>yoyoyo</td>
+                           <td>1</td>
+                         </tr>
+                 </table>
+               </div>
+               <br><br>
+               <button  type="button" name="button" onclick="Confirmation()">DELETE</button>
+      </div>
+
+
+      </div>
+
+
+        <div class="tableTitle">
+          <h2> product on sale</h2>
+        </div>
+        <table>
+         <tr>
+           <th>id</th>
+           <th>name</th>
+           <th>price</th>
+           <th>category</th>
+         </tr>
+         <tr>
+           <td>    </td>
+           <td>     </td>
+           <td>    </td>
+           <td>     </td>
+         </tr>
+        </table>
+      </main>
+
+      <aside class="col1">
+        <div class="sideForProduct ">
+            <h4>PRODUCT</h4>
+            <input type="submit" class="" name="createUser" value="CREATE"  onclick="BlockDisplay()">
+            <input type="submit" class="" name="editUser" value="EDIT       " onclick="EditPage()">
+            <input type="submit" class="" name="deleteUser" value="DELETE" onclick="openDeleteBox()">
+
+          <h4>USER</h4>
+          <div class="sideForUsers">
+           <input type="button" class="display" name="createUser" value="CREATE"  onclick="location.href='adminindex.php'" >
+           <input type="button" class="" name="editUser" value="EDIT       "   onclick="location.href='adminindex.php'">
+           <input type="submit" class="" name="deleteUser" value="DELETE"  onclick="location.href='adminindex.php'">
+
+
+
+
+        </div>
+      </aside>
+      <script type="text/javascript" src="admin.js">
+
+      </script>
+  </body>
+</html>

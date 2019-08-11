@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2>
+        {% if editButton %}
+            Update your product
+        {% else %}
+            Create a new product
+        {% endif %}
+    </h2>
+
+ {{ form_start(formProduct) }}
+
+    {{ form_row(formProduct.product_name, {'attr' : {'placeholder' : 'Product Name'}}) }}
+    {{ form_row(formProduct.product_desc, {'attr' : {'placeholder' : 'Product Description'}}) }}
+    {{ form_row(formProduct.product_price, {'attr' : {'placeholder' : 'Product Price'}}) }}
+    {{ form_row(formProduct.product_image, {'attr' : {'placeholder' : 'Product Image URL'}}) }}
+    <button type="submit" class="btn btn-success">
+            {% if editButton %}
+                Product modification
+            {% else %}
+                Submit new product
+            {% endif %}
+    </button>
+
+ {{ form_end(formProduct) }}
+{% endblock %}

@@ -1,0 +1,22 @@
+{
+  "name": "mean_pool_day_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.epitech.eu:/john.mauduit@coding-academy.fr/MEAN_Pool_Day_02"
+  },
+  "author": "",
+  "license": "ISC"
+}

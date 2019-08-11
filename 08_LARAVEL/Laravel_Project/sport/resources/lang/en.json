@@ -1,0 +1,152 @@
+{
+"commentaires fonctions de base": "",
+
+  "Confirm Password": "Confirm Password",
+  "E-Mail Address": "E-Mail Address",
+  "Forgot Your Password?": "Forgot Your Password? ?",
+  "If you did not request a password reset, no further action is required.": "If you did not request a password reset, no further action is required.",
+  "Login": "Login",
+  "Logout": "Logout",
+  "Name": "Name",
+  "Password": "Password",
+  "Password confirmation": "Password confirmation",
+  "Register": "Register",
+  "Remember Me": "Remember Me",
+  "Reset Password": "Reset Password",
+  "Reset Password Notification": "Reset Password Notification",
+  "Send Password Reset Link": "Send Password Reset Link",
+  "You are receiving this email because we received a password reset request for your account.": "You are receiving this email because we received a password reset request for your account.",
+
+
+"commentaires menu du layout": "",
+
+  "Language": "Language",
+      "English": "English",
+      "French": "French",
+      "Spanish": "Spanish",
+      "Japanese": "Japanese",
+
+  "Admin panel": "Admin panel",
+      "Users": "Users",
+      "Players": "Players",
+      "Teams": "Teams",
+      "Matchs": "Matchs",
+      "Stats": "Stats",
+      "Bets": "Bets",
+
+  "Profile": "Profile",
+  "My bets": "My bets",
+
+
+"commentaires page home": "",
+
+  "Match": "Match",
+  "Status": "Status",
+  "Action": "Action",
+
+  "Open": "Open",
+  "Closed": "Closed",
+  "Bet": "Bet",
+
+
+  "Id": "Id",
+  "Country": "Country",
+  "Flag": "Flag",
+  "See": "See",
+
+
+"Page user auth": "",
+
+    
+"commentaires page teams": "",
+
+  "Globals stats": "Globals stats",
+  "It's the profile of the team": "It's the profile of the team",
+  "From the country": "From the country",
+  "Put :": "Put :",
+  "hits": "hits",
+  "Sank : ": "Sank : ",
+  "liters of blood": "liters of blood",
+  "Skewer is opponent ": "Skewer is opponent ",
+  "times": "times",
+  "Last matches": "Last matches",
+  "Victory": "Victory",
+  "Defeat": "Defeat",
+
+
+"commentaires page users": "",
+
+  "Hello ": "Hello ",
+  "Email": "Email",
+  "Actions": "Actions",
+  "Modify": "Modify",
+  "Update your data": "Update your data",
+  "Choose an avatar": "Choose an avatar",
+
+
+"commentaires page players": "",
+  
+    "Player page": "Player page",
+    "Player name :": "Player name :",
+    "Team name :": "Team name :",
+
+
+"commentaires page bets": "",     
+          
+    "My bet list": "My bet list",
+    "Team bet on": "Team bet on",
+    "Money": "Money",
+    "Date": "Date",
+    "Time to bet": "Time to bet",
+    "Choose a winner": "Choose a winner",
+    "Bet($$$)": "Bet($$$)",
+    "Put the money, you are betting !": "Put the money, you are betting !",
+    "Submit": "Submit",
+          
+
+
+
+"Page Admin": "",
+
+"Users administration": "Users administration",
+"Players administration": "Players administration",
+"Teams administration": "Teams administration",
+"Matches administration": "Matches administration",
+"Bets list administration": "Bets list administration",
+"Stats administration": "Stats administration",
+
+"Stats update": "Stats update",
+
+"Add user": "Add user",
+"Add team": "Add team",
+"Add stat": "Add stat",
+"Add player": "Add player",
+"Add match": "Add match",
+"Add bet": "Add bet",
+
+"Update data for ": "Update data for ",
+
+"Choose matches. Add a bet.": "Choose matches. Add a bet.",
+"Choose a winner !": "Choose a winner !",
+
+"User id": "User id",
+"Match id": "Match id",
+"User": "User",
+"Admin": "Admin",
+"Player": "Player",
+"Stat 1": "Stat 1",
+"Stat 2": "Stat 2",
+"Stat 3": "Stat 3",
+"Team": "Team",
+"Team 1": "Team 1",
+"Team 2": "Team 2",
+"Winner": "Winner",
+
+"Creation Date": "Creation Date",
+"Edition Date": "Edition Date",
+
+"Back": "Back",
+"Delete": "Delete"
+
+
+}

@@ -1,0 +1,28 @@
+html{
+    background-color: yellow;
+}
+.a-great-style{
+    font-family: impact;
+    background-color: red;
+}
+
+#p1{
+    font-size: 21px;
+    color: white;
+    background-color: black;
+
+}
+
+#p2{
+    font-size: 27px;
+    color: black;
+    background-color:white
+    
+}
+
+#span{
+    font-size: 27px;
+    font-style: italic;
+    color: red;
+    
+}

@@ -1,0 +1,22 @@
+{% extends 'layouts.html' %}
+
+{% block header %}
+        <h1>LOGIN</h1>  
+{% endblock %}
+
+{% block form %}
+    
+    <form method="post">
+            <label for="username">Username</label>
+            <input name="username" id="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <input type="submit" value="Log in" class="btn">
+
+            <label for="remember" id="remember" >Remember me</label>
+            <input type="checkbox" name="remember" id="remember" >
+    </form>
+
+{% endblock %}

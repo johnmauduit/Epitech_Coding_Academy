@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>index.html</title>
+
+    </head>
+    
+<body>
+    
+    
+    
+    <header>
+            <h1>Welcome to CodingPedia</h1>
+    </header>
+    <menu>
+        <nav>
+                <ul>
+                    
+                    <li><a href="index.html">INDEX</a></li>
+                    <li><a href="php.html">PHP</a></li>
+                    <li><a href="sql.html">SQL</a></li>
+                                
+                </ul>
+        </nav>
+    </menu>
+    <main>
+            <article>
+
+                    <abbr title="SQL: Structured Query Language">SQL</abbr>
+                    is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), 
+                    or for stream processing in a relational data stream management system (RDSMS). 
+                    It is particularly useful in handling structured data where there are relations between different entities/variables of the data.
+                    SQL offers two main advantages over older read/write APIs like ISAM or VSAM: first, 
+                    it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify how to reach a record,
+                    e.g. with or without an index.
+
+            </article>
+
+            <article>
+                    <h4>Course planning</h4>
+                    <table>
+                            <thead>
+                             <tr>
+                                <th>Subjects</th>
+                                <th>Description</th>
+                                <th>Grade obtained</th>
+                             </tr>
+                            </thead>
+                           
+                            <tbody>
+                             <tr>
+                                <td>Pool_C</td>
+                                <td>Barbus</td>
+                                <td>2000</td>
+                             </tr>
+                             <tr>
+                                 <td>SQL</td>
+                                 <td>Poilus</td>
+                                 <td>3000</td>
+                             </tr>
+                                 <tr>
+                                 <td>HTML</td>
+                                 <td>Moustachus</td>
+                                 <td>10000</td>
+                             </tr>
+                            </tbody>
+                    </table>
+            </article>
+
+            <article>
+                <h4>Criticisms</h4>
+                <ul>
+                        <li>Orthogonality and completeness :<br>
+                            Early specifications did not support major features, such as primary keys.
+                            Result sets could not be named, and subqueries had not been defined. These were added in 1992.
+                        </li>
+                        <li>Nulls :<br>
+                            SQL's controversial "null" value is neither true nor false (predicates with terms that return a null value return null rather than true or false).
+                            Features such as outer-join depend on null values.
+                        </li>
+                        <li>Other :<br>
+                            Other popular critiques are that it allows duplicate rows,
+                            integrating with languages such as Python, whose data types are not the same, difficulty of parsing and the absence of modularity.
+                        </li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>SQL code example</h4>
+                        <p>
+                            <pre>
+                                <code>
+                                    CREATE TABLE emp (
+                                        empno INT PRIMARY KEY,
+                                        ename VARCHAR(10),
+                                        job VARCHAR(9),
+                                        mgr INT NULL,
+                                        hiredate DATETIME,
+                                        sal NUMERIC(7,2),
+                                        comm NUMERIC(7,2) NULL,
+                                        dept INT)
+                                        begin
+                                        insert into emp values
+                                            (1,'JOHNSON','ADMIN',6,'12-17-1990',18000,NULL,4)
+                                        insert into emp values
+                                            (2,'HARDING','MANAGER',9,'02-02-1998',52000,300,3)
+                                        insert into emp values
+                                            (3,'TAFT','SALES I',2,'01-02-1996',25000,500,3)
+                                        end
+                                        CREATE TABLE dept (
+                                        deptno INT NOT NULL,
+                                        dname VARCHAR(14),
+                                        loc VARCHAR(13))
+                                        begin
+                                        insert into dept values (1,'ACCOUNTING','ST LOUIS')
+                                        insert into dept values (2,'RESEARCH','NEW YORK')
+                                        insert into dept values (3,'SALES','ATLANTA')
+                                        insert into dept values (4, 'OPERATIONS','SEATTLE')
+                                        end
+                                </code>
+                            </pre>                           
+                        </p>
+
+                        <p>
+                            <pre>
+                                <code>
+                                    CREATE TABLE emp (
+                                        empno INT PRIMARY KEY,
+                                        ename VARCHAR(10),
+                                        job VARCHAR(9),
+                                        mgr INT NULL,
+                                        hiredate DATETIME,
+                                        sal NUMERIC(7,2),
+                                        comm NUMERIC(7,2) NULL,
+                                           dept INT)
+                                        begin
+                                        insert into emp values
+                                            (1,'JOHNSON','ADMIN',6,'12-17-1990',18000,NULL,4)
+                                        insert into emp values
+                                            (2,'HARDING','MANAGER',9,'02-02-1998',52000,300,3)
+                                        insert into emp values
+                                            (3,'TAFT','SALES I',2,'01-02-1996',25000,500,3)
+                                        end
+                                        CREATE TABLE dept (
+                                        deptno INT NOT NULL,
+                                        dname VARCHAR(14),
+                                        loc VARCHAR(13))
+                                        begin
+                                        insert into dept values (1,'ACCOUNTING','ST LOUIS')
+                                        insert into dept values (2,'RESEARCH','NEW YORK')
+                                        insert into dept values (3,'SALES','ATLANTA')
+                                        insert into dept values (4, 'OPERATIONS','SEATTLE')
+                                        end
+                                </code>
+                                </pre>                           
+                            </p>
+    
+            </article> 
+            <article>
+
+                    <progress value="100%" max="1000">70%
+                        <h5>Progression personnel</h5>
+                    </progress> 
+
+                    <h4>Subjects to review</h4>
+                <ol>
+                        <li>Le rasage de moustache<br></li>
+                        <li>L'élagage de la barbe<br></li>
+                        <li>Mes blagues, surtout mes blagues<br></li>
+                </ol>
+
+            </article>
+           
+    </main>
+    <aside>
+            <p>
+                    <cite>
+                        "Peaceisalie,thereisonlypassion. Through passion, I gain strength. Through strength, I gain power. Through power, I gain victory.
+                        Through victory, my chains are broken. The Force shall free me."
+                    </cite> 
+                by Habib Barbus 2018</p>
+    </aside>
+
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which func- tions as a wiki.
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve</p>
+        
+        <p>I am John Mauduit, currently a student at the coding-academy, and I love to stay in the pool all day long</p>
+
+    <footer>
+        <address>
+            
+            <p>Mauduit John<br></b>64, rue de l'églité<br>92130 Issy les Moulineaux<br>+33 6 88 24 17 92</p>
+    
+        </address>
+    </footer>
+
+
+
+</body>
+</html>

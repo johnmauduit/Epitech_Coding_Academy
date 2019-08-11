@@ -1,0 +1,239 @@
+:root{
+  --primaray: #ddd;
+  --light: #fff;
+  --lightgrey: #ccc;
+  --dark: #333;
+  --chrome:  linear-gradient(45deg, rgba(50,50,50,1) 0%, rgba(87,87,87,1) 36%, rgba(235,235,235,1) 93%); 
+  --shadow: 0 1px 5px rgba(61, 58, 58, 0.8);
+  --shadow_text: 0 2px 8px rgba(46, 38, 38, 0.8);
+}
+
+html{
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: var(--dark);
+}
+
+body{
+  background: url(../img/flask_batman.jpeg) no-repeat center center / cover;
+  margin: 20px;
+  line-height: 1.4;
+}
+
+ul{
+  padding: 0px;
+}
+
+.btn{
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem; /* 1er = top-bottom / 2e = left-right    et 1rem = 16px */
+  text-decoration: none;
+  border: 0;
+  border-radius: 3px;  
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  box-sizing: border-box;
+  display: block;
+  line-height: 1;
+  color: var(--primaray);
+  text-shadow: var(--shadow_text);
+  padding-left: 10px;
+}
+
+h1:before{
+  display: inline-block;
+  content:url(../img/python-brands.svg);
+  width: 30px;
+  margin: 0px 10px 0px 0px ;
+  vertical-align: -17%;
+}
+
+.wrapper{
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto 27% 27% 27%;
+  grid-template-rows: 10% 1fr 40% 5%;
+  min-height: 100vh;
+  grid-template-areas: 
+        "header header header header"
+        "sidebar main main main"
+        "sidebar section1 section2 section3"
+        "footer footer footer footer";
+}
+
+.aside-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "nav";
+}
+/* navigation */
+.main-nav{
+  grid-area: nav;
+}
+
+.main-nav ul{
+  display: grid;
+  grid-gap: 10px;
+  list-style: none;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: auto; */
+  margin: 10px;
+}
+
+
+
+.main-nav a{
+  background-color: var(--primaray);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);  
+}
+
+.main-nav a:hover{
+  background-color: var(--dark); 
+  color: var(--light);
+}
+
+header{
+  grid-area: header;
+  /* background-color: rgba(46, 38, 38, 0.2); */
+}
+
+
+aside{
+  grid-area: sidebar;
+  /* align-content: center; */
+}
+
+main{
+  grid-area: main;
+}
+
+section{
+  display: grid;
+  background-color: var(--primaray);
+  box-shadow: var(--shadow);
+  align-items: center;
+  justify-items: center;
+  padding: 1.5rem;
+  border-radius: 3px;
+}
+
+section:nth-of-type(1){
+  box-sizing: border-box;
+  grid-area: section1;
+}
+
+section:nth-of-type(2){
+  box-sizing: border-box;
+  grid-area: section2;
+}
+
+section:nth-of-type(3){
+  box-sizing: border-box;
+  grid-area: section3;
+}
+
+footer{
+  grid-area: footer;
+}
+
+footer p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* form design */
+form {
+  display: grid;
+  padding: 1em;
+  background-color: var(--primaray);
+  border: 1px solid #c1c1c1;
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  box-shadow: var(--shadow);
+  border-radius: 3px;
+}
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+input.btn{
+  background-color: var(--dark);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--light);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+input.btn:hover{
+  background-color: var(--lightgrey); 
+  color: var(--dark);
+  cursor: pointer
+}
+
+label {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+}
+input:focus {
+  outline: 3px solid gold;
+}
+
+/* Remember */
+label#remember {
+  text-align: left;
+  grid-column: 2 / 2;
+  grid-row: 4 / 5;
+}
+input#remember{
+  grid-row: 4 / 5;
+  width:20px;
+  margin-left: 120px;
+  margin-top: 8px;
+}
+/* MEDIA QUERY */
+@media (min-width: 400px) {
+  form {
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+  }
+
+  label {
+    text-align: right;
+    grid-column: 1 / 2;
+  }
+  label#remember {
+    text-align: left;
+    grid-column: 2 / 2;
+  }
+
+  input,
+  button {
+    grid-column: 2 / 3;
+  }
+}
+

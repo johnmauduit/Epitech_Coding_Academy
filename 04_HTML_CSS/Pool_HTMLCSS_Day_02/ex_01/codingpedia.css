@@ -1,0 +1,148 @@
+/* CSS Variables */
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --gray: #ccc;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  }
+    
+  html {
+    box-sizing: border-box;
+    font-family: Gill sans, Helvetica, sans-serif;
+    color: var(--dark);
+  }
+  
+  body {
+    background: var(--gray);
+    margin: 30px 50px;
+    line-height: 1.4;
+  }
+  
+  .btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+  }
+
+
+  /* Navigation */
+
+  .main-nav {
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 50%;
+  }
+
+  .main-nav ul{
+      display: grid;
+      grid-gap: 20px;
+      padding: 0;
+      list-style: none;
+      grid-template-columns: repeat(3, 5rem);
+  }
+  .main-nav a{
+      display: block;
+      background: var(--primary);
+      text-decoration: none;
+      text-align: center;
+      padding: 0.8 rem;
+      color: var(--dark);
+      font-size: 1.1rem;
+      box-shadow: var(--shadow);
+  }
+
+  .main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
+  }
+
+  .main-nav a:visited {
+    font-style: italic;
+}
+
+/* Header */
+header{
+  background: var(--light);
+  z-index: 1000;
+}
+
+.header-boxes{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.header-boxes h1{
+  /* max-width: 50%; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  font-size: 3rem;
+  padding: 15px;
+}
+
+.main-nav ul{
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
+}
+/* top container */
+
+.top-container{
+  display:grid;
+  grid-template-columns: 70% 29%;
+  grid-gap: 15px;
+}
+
+main{
+  display: block;
+  background: var(--primary);
+  float: left;
+  text-align: left;
+  padding: 15px;
+}
+
+.table{
+  border: 2px solid black;
+}
+
+tbody > tr{
+  background: var(--gray);
+}
+tbody > tr:nth-child(odd){
+  background: var(--light);
+}
+
+aside.aside-boxes{
+  display: inline-block;
+  position: relative;
+  background: var(--primary);
+  float: right;
+  text-align: justify;
+  padding: 15px;
+}
+
+
+/* Footer */
+
+footer{
+  background: var(--light);
+  float: left;
+  clear: both;
+}
+.footer-boxes{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}

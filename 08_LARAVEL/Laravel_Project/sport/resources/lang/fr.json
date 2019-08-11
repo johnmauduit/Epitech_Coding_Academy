@@ -1,0 +1,157 @@
+{
+"commentaires fonctions de base": "",
+
+    "Confirm Password": "Confirmez le mot de passe",
+    "E-Mail Address": "Adresse mail",
+    "Forgot Your Password?": "Vous avez oublié votre mot de passe ?",
+    "If you did not request a password reset, no further action is required.": "Si vous n'avez pas demandé de réinitialisation de mot de passe, aucune autre action n'est requise.",
+    "Login": "Connexion",
+    "Logout": "Déconnexion",
+    "Name": "Nom",
+    "Password": "Mot de passe",
+    "Password confirmation": "Confirmation du mot de passe",
+    "Register": "S'inscrire",
+    "Remember Me": "Se souvenir de moi",
+    "Reset Password": "Réinitialisation du mot de passe",
+    "Reset Password Notification": "Notification de réinitialisation du mot de passe",
+    "Send Password Reset Link": "Envoyer le lien de réinitialisation du mot de passe",
+    "You are receiving this email because we received a password reset request for your account.": "Vous avez reçu ce courriel parce que nous avons reçu une demande de réinitialisation de mot de passe pour votre compte.",
+  
+
+"commentaires menu du layout": "",
+
+    "Language": "Langue",
+      "English": "Anglais",
+      "French": "Français",
+      "Spanish": "Espagnol",
+      "Japanese": "Japonais",
+    
+    "Admin panel": "Espace administrateur",
+      "Users": "Utilisateurs",
+      "Players": "Joueurs",
+      "Teams": "Equipes",
+      "Matchs": "Matchs",
+      "Stats": "Statistiques",
+      "Bets": "Paris",
+    
+    "Profile": "Profile",
+    "My bets": "Mes paris",
+  
+
+"commentaires page home": "",
+
+    "Match": "Match",
+    "Status": "Status",
+    "Action": "Action",
+
+    "Open": "Ouvert",
+    "Closed": "Fermé",
+    "Bet": "Parier",
+
+
+    "Id": "Id",
+    "Country": "Pays",
+    "Flag": "Drapeau",
+    "See": "Voir",
+
+
+"Page user auth": "",
+
+
+"commentaires page teams": "",
+
+    "Globals stats": "Statistiques globales",
+    "It's the profile of the team": "Voici le profile de l'équipe",
+    "From the country": "Venant de ",
+    "Put :": "A mis :",
+    "hits": "coups",
+    "Sank : ": "A fait couler ",
+    "liters of blood": "litres de sang",
+    "Skewer is opponent ": "A embroché son adversaire ",
+    "times": "fois",
+    "Last matches": "Derniers matchs",
+    "Victory": "Victoires",
+    "Defeat": "Défaites",
+
+
+"commentaires page users": "",
+
+    "Hello ": "Bonjour ",
+    "Email": "Email",
+    "Actions": "Actions",
+    "Modify": "Modifier",
+    "Update your data": "Modifiez vos données",
+    "Choose an avatar": "Choisissez un avatar",
+
+
+"commentaires page players": "",
+
+    "Player page": "Page de joueur",
+    "Player name :": "Nom du joueur :",
+    "Team name :": "Nom de l'équipe :",
+
+
+"commentaires page bets": "",     
+    
+    "My bet list": "Ma liste des paris",
+    "Team bet on": "Parier sur l'équipe",
+    "Money": "Devise",
+    "Date": "Date",
+    "Time to bet": "C'est le moment de parier",
+    "Choose a winner": "Choisissez un vainqueur",
+    "Bet($$$)": "Pari($$$)",
+    "Put the money, you are betting !": "Placez l'argent à parier",
+    "Submit": "Validez",
+          
+
+
+
+"Page Admin Index": "",
+
+    "Users administration": "Administration des utilisateurs",
+    "Players administration": "Administration des joueurs",
+    "Teams administration": "Administration des équipes",
+    "Matches administration": "Administration des matchs",
+    "Bets list administration": "Administration de la liste des paris",
+    "Stats administration": "Administration des statistiques",
+
+    "Stats update": "Modification des statistiques",
+
+    "Add user": "Ajouter un utilisateur",
+    "Add team": "Ajouter une équipe",
+    "Add stat": "Ajouter une stat",
+    "Add player": "Ajouter un joueur",
+    "Add match": "Ajouter un match",
+    "Add bet": "Ajouter un pari",
+
+    "Update data for ": "Modifier les données de ",
+
+    "Choose matches. Add a bet.": "Choisir des matchs. Ajouter un pari.",
+    "Choose a winner !": "Choisissez un gagnant",
+
+    "User id": "Id d'utilisateur",
+    "Match id": "Id du match",
+    "User": "User",
+    "Admin": "Admin",
+    "Player": "Joueur",
+    "Stat 1": "Stat 1",
+    "Stat 2": "Stat 2",
+    "Stat 3": "Stat 3",
+    "Team": "Equipe",
+    "Team 1": "Equipe 1",
+    "Team 2": "Equipe 2",
+    "Winner": "Gagnant",
+
+    "Creation Date": "Date de création",
+    "Edition Date": "Date de modification",
+
+    "Back": "Retour",
+    "Delete": "Supprimer"
+
+
+
+
+
+
+    
+}
